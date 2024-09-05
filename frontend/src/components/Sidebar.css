@@ -1,0 +1,114 @@
+.sidebar {
+/* Inherited from MainLayout.css */
+}
+
+.sidebar.shrunk {
+    width: 20px;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 10px 0;
+    flex-shrink: 0;
+}
+
+.sidebar-footer {
+    height: 20px;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    flex-shrink: 0;
+    background-color: var(--background-color);
+    width: 100%;
+}
+
+.sidebar-footer::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: linear-gradient(to top, var(--background-color), rgba(249, 249, 249, 0));
+    pointer-events: none; /* Make the gradient click-through */
+}
+
+.sidebar-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: calc(100vh - 60px); /* Adjust based on the total height of the header and footer */
+    padding-bottom: 30px; /* Ensure content doesn't get hidden behind the footer */
+}
+
+.hide-button, .plus-button, .nav-button, .footerButton, .editButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+}
+
+.nav-button:hover {
+    background-color: var(--button-hover-color);
+    border-radius: 10px;
+}
+
+
+
+.section {
+    margin-bottom: 30px;
+}
+
+.contentFrame {
+    transition: margin-left 0.3s ease;
+}
+
+.sidebar.shrunk + .contentFrame {
+}
+
+.sidebar.expanded + .contentFrame {
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+}
+
+.sidebar-content h4 {
+    margin-bottom: 5px;
+    color: var(--subtext-color);
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+
+.settingsIcon {
+    width: 16px;
+    height: 16px;
+}
+
+.editButton, .footerButton {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 1px;
+}

@@ -1,0 +1,45 @@
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-section h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--subtext-color);
+}
+
+.category-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.edit-page-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    width: fit-content;
+    color: var(--text-color)
+}
+
+.edit-page-item:hover {
+    background-color: var(--button-hover-color);
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+.toggle-icon {
+    margin-left: auto;
+    width: 16px;
+    height: 16px;
+}

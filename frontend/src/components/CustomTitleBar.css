@@ -1,0 +1,22 @@
+.custom-title-bar {
+    -webkit-app-region: drag;
+    background-color: var(--background-color);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid var(--border-layout-color);
+}
+
+.title-bar-content {
+    /*-webkit-app-region: no-drag;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+}

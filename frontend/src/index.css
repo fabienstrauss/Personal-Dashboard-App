@@ -1,0 +1,30 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+:root {
+  --background-color: #F9F9F9;
+  --text-color: #1F1F1F;
+  --subtext-color: #808080;
+  --border-color: #808080;
+  --button-hover-color: #F0F0F0;
+  --border-layout-color: #D3D3D3;
+}
+
+.dark-theme {
+  --background-color: #1F1F1F;
+  --text-color: #F9F9F9;
+  --subtext-color: #D1D1D1;
+  --border-color: #E2E2E2;
+  --button-hover-color: #353535;
+  --border-layout-color: #7a7a7a;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

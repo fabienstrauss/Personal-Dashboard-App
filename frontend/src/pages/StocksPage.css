@@ -1,0 +1,31 @@
+.stock-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.stock-item .stock-chart {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.stock-item .stock-price {
+    text-align: right;
+    min-width: 80px;
+}
+
+.stock-item .details-button {
+    margin-left: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.stock-item .details-button:hover {
+    background-color: #0056b3;
+}

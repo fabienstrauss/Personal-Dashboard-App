@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #F9F9F9;
+    height: 50px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-buttons button {
+    margin-left: 10px;
+}
+
+.header-buttons {
+    position: relative;
+}
+
+.profile-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: url('../assets/me.jpg') no-repeat center center;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.popup-menu.active {
+    display: block;
+}
+
+.popup-menu button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.popup-menu button:hover {
+    background-color: #f0f0f0;
+}
