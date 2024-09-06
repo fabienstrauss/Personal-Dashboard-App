@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+**Note: Work in progress, this app is yet not functional!**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Dashboard App
 
-## Available Scripts
+Welcome to the **Personal Dashboard App**, a multi-category platform designed to help you manage various aspects of your life in one place. The app features multiple tabs and categories like stocks, notes, bookmarks, tasks, and more to keep you organized and informed.
 
-In the project directory, you can run:
+## 🚀 Current Features
 
-### `npm start`
+### 1. **Stocks Dashboard**
+   - **View Stocks**: Track stock prices, see historical data, and view details of individual stocks.
+   - **Additional Tools**: Includes Stock News, Dividend Calendar, and Market Heatmap.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Notes**
+   - Manage your notes and keep track of personal or work-related thoughts and ideas (under development).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. **Bookmarks**
+   - Save and organize your favorite links to easily access important websites (under development).
 
-### `npm test`
+### 4. **To-Do List**
+   - Create and manage your daily tasks to stay organized and productive (under development).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. **Calendar**
+   - Keep track of important dates and events in the calendar tab (under development).
 
-### `npm run build`
+### 6. **Weather**
+   - Check the current weather and forecast in your location (under development).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 7. **Quote of the Day (QOTD)**
+   - Get inspired with a daily quote (under development).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 8. **Moodboards**
+   - Visual inspiration boards to collect and organize ideas (under development).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 9. **Currency Converter**
+   - Convert between different currencies with up-to-date exchange rates (under development).
 
-### `npm run eject`
+### 10. **Settings**
+   - Customize your experience with app settings (under development).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React.js
+- **Backend**: Node.js with Express
+- **Database**: SQLite for local development, storing stock prices and other data
+- **APIs**: 
+  - [Yahoo Finance](https://www.yahoofinance.com/) for stock data
+  - Alpha Vantage for live stock updates
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📖 Roadmap
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Complete the **Stocks Dashboard** with detailed stock views and additional functionalities.
+- Add full functionality to other categories, including **Notes**, **To-Do List**, **Bookmarks**, and **Calendar**.
+- Integrate weather and currency converter functionalities.
+- Improve the UI/UX for a smoother, more intuitive user experience.
+- Implement data synchronization between the local app and a mobile web version, allowing users to log in and access data like notes, to-do lists, and bookmarks remotely. The app will automatically sync data when opened, ensuring that updates made on one platform are reflected across all devices.
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Feel free to fork this repository and submit pull requests with improvements. If you encounter any issues, please open an issue to discuss potential fixes or enhancements.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
